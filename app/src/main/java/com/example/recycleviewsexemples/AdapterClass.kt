@@ -11,8 +11,7 @@ class AdapterClass(private val dataList: ArrayList<DataClass>) :
     RecyclerView.Adapter<AdapterClass.ViewHolderClass>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolderClass {
-        val itemView =
-            LayoutInflater.from(parent.context).inflate(R.layout.item_layout, parent, false);
+        val itemView = LayoutInflater.from(parent.context).inflate(R.layout.item_layout, parent, false);
         return ViewHolderClass(itemView);
     }
 

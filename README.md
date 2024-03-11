@@ -25,10 +25,17 @@ O view holder é uma espécie de invólucro em torno de uma View e é gerenciado
     - Associe seus dados aos view holders.
     - Você pode personalizar ainda mais sua RecyclerView para atender às suas necessidades específicas.
 
-### Resumo:
+## Resumo:
 - A RecyclerView é uma ferramenta poderosa para criar listas dinâmicas e eficientes em aplicativos Android. Ela simplifica a exibição e manipulação de grandes conjuntos de dados, tornando o desenvolvimento mobile mais eficiente e responsivo.
 
-### Créditos:
+## Créditos:
 
 - O trabalho se baseou em algumas pesquisas, direcionadas em grande maioria a documentação oficial do android.
 - O breve projeto foi possivel ser realizado com funções até então pouco exploradas em sala, utilizamos o canal [**Android Knowledge**](https://www.youtube.com/@android_knowledge/videos) como fonte de busca para exemplificações de como aplicar as Recycle Views em determinadas situações. O código em si se baseia neste [video](https://www.youtube.com/watch?v=UDfyZLWyyVM).
+
+## Preview:
+<div align="left">
+<img align="center" alt="Preview" height="650" width="300" src="https://github.com/VitorVVC/Recycle-View/assets/144281355/f082ac1a-7ae4-4424-a2d6-e87bd4f2aaec">
+</div>
+
+

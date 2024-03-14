@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // Declaramos aqui que ele já utilizando a contentView capturada desenhe as imagens e as salvem na imageList();
         imageList = arrayOf(
             R.drawable.ic_list,
             R.drawable.ic_checkbox,
@@ -29,6 +30,7 @@ class MainActivity : AppCompatActivity() {
             R.drawable.ic_edit,
             R.drawable.ic_camera)
 
+        // Declaramos aqui os titulos das imagens, que estarão ao seu lado. Também em uma lista -> titleList();
         titleList = arrayOf(
             "ListView",
             "CheckBox",
@@ -41,6 +43,7 @@ class MainActivity : AppCompatActivity() {
             "EditText",
             "Camera")
 
+        // Capturamos a recycleView pelo seu ID
         recyclerView = findViewById(R.id.recyclerView);
         recyclerView.layoutManager = LinearLayoutManager(this);
         recyclerView.setHasFixedSize(true);
@@ -50,6 +53,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    // Função para retornar as imagens e seus titulos para um dataClass
     private fun getData() {
         for (i in imageList.indices) {
             val dataClass = DataClass(imageList[i],titleList[i]);
